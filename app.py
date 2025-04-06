@@ -14,9 +14,9 @@ app.route('/listeners')
 def listeners():
     return render_template('listeners.html')
 
-app.route('/connections')
+app.route('/connection')
 def connections():
-    return render_template('connections.html')
+    return render_template('connection.html')
 
 if __name__ == " __main__":
     app.run(host="0.0.0.0", debug=True)
