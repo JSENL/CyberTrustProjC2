@@ -16,7 +16,7 @@ def listeners():
 
 @app.route('/connections')
 def connections():
-    return render_template('connection.html')
+    return render_template('connections.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5001, debug=True)
